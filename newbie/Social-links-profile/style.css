@@ -1,0 +1,70 @@
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    font-family: inter;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+}
+.main{
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    background-color: #1f1f1f;
+    color: white;
+}
+.main .self{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main .self img{
+    height: 100px;
+    border-radius: 50px;
+}
+.main .self h1{
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+.main .self h2{
+    color: #c5f82a;
+    font-size: 15px;
+}
+.main .self h3{
+    font-size: 15px;
+}
+.main .link-tree{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.main .link-tree button{
+    border-radius: 10px;
+    margin: 10px 0px;
+    border: none;
+    background-color: #333333;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 1rem 140px;
+}
+.main .link-tree button:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+footer{
+    color: white;
+    font-size: 11px;
+}
